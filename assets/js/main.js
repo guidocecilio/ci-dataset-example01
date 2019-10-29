@@ -1,4 +1,4 @@
-d3.csv("assets/data/dataset.csv").then(makeGraphs);
+d3.csv("../data/dataset.csv").then(makeGraphs);
 
 function makeGraphs(data) {
     var commitmentByProgrammeNameChart = dc.barChart('#commitment-by-programme-name');
